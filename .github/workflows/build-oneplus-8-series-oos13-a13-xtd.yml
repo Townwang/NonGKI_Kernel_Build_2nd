@@ -21,8 +21,8 @@ env:
   GCC_GNU : false
   GCC_64_SOURCE : "https://github.com/Townwang/Google-GCC-Android-4.9.git"
   GCC_64_BRANCH : "aarch64"
-  GCC_32_SOURCE : "https://github.com/Townwang/Google-GCC-Android-4.9.git"
-  GCC_32_BRANCH : "arm32"
+  GCC_32_SOURCE : #"https://github.com/Townwang/Google-GCC-Android-4.9.git"
+ # GCC_32_BRANCH : "arm32"
 
   DEFCONFIG_SOURCE: ""
   DEFCONFIG_NAME : "xtd_defconfig"
