@@ -12,16 +12,16 @@ env:
   CUSTOM_CMDS : "BRAND_SHOW_FLAG=oneplus CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld"
 
-  KERNEL_SOURCE : "https://github.com/ppajda/android_kernel_oneplus_sm8250.git"
+  KERNEL_SOURCE : "https://github.com/Townwang/android_kernel_oneplus_sm8250.git"
   KERNEL_BRANCH : "oos13.1"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
 
   GCC_GNU : false
-  GCC_64_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
+  GCC_64_SOURCE : "https://github.com/Townwang/Google-GCC-Android-4.9.git"
   GCC_64_BRANCH : "aarch64"
-  GCC_32_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
+  GCC_32_SOURCE : "https://github.com/Townwang/Google-GCC-Android-4.9.git"
   GCC_32_BRANCH : "arm32"
 
   DEFCONFIG_SOURCE: ""
@@ -38,7 +38,7 @@ env:
   SUSFS_ENABLE : false
   SUSFS_FIXED : false
 
-  AK3_SOURCE : "https://github.com/JackA1ltman/OP8_AnyKernel3.git"
+  AK3_SOURCE : "https://github.com/Townwang/OP8_AnyKernel3.git"
   AK3_BRANCH : "main"
 
   BOOT_SOURCE : ""
@@ -55,7 +55,7 @@ env:
 
   KERNELSU_METHOD: "shell" # shell, manual and only.
 
-  PATCHES_SOURCE: "JackA1ltman/NonGKI_Kernel_Patches" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
+  PATCHES_SOURCE: "Townwang/NonGKI_Kernel_Patches" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
   PATCHES_BRANCH: "op_kernel" # [your_branch] -> main
 
   SUSFS_FOLDER_FIXED: "kona_oos" # Fill in your patch prefix directory here. Leave it blank if there isn't one. -> your_folder
